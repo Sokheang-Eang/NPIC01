@@ -1,0 +1,33 @@
+[1.840s] Invoking command in '/home/robocon/NPIC01/silo_tracking': PYTHONPATH=/home/robocon/NPIC01/build/silo_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robocon/NPIC01/install/silo_tracking/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/silo_tracking build --build-base /home/robocon/NPIC01/build/silo_tracking/build install --record /home/robocon/NPIC01/build/silo_tracking/install.log --install-scripts $base/lib/silo_tracking --single-version-externally-managed install_data
+[2.165s] running egg_info
+[2.165s] creating ../build/silo_tracking/silo_tracking.egg-info
+[2.166s] writing ../build/silo_tracking/silo_tracking.egg-info/PKG-INFO
+[2.166s] writing dependency_links to ../build/silo_tracking/silo_tracking.egg-info/dependency_links.txt
+[2.166s] writing entry points to ../build/silo_tracking/silo_tracking.egg-info/entry_points.txt
+[2.166s] writing requirements to ../build/silo_tracking/silo_tracking.egg-info/requires.txt
+[2.167s] writing top-level names to ../build/silo_tracking/silo_tracking.egg-info/top_level.txt
+[2.169s] writing manifest file '../build/silo_tracking/silo_tracking.egg-info/SOURCES.txt'
+[2.212s] reading manifest file '../build/silo_tracking/silo_tracking.egg-info/SOURCES.txt'
+[2.213s] writing manifest file '../build/silo_tracking/silo_tracking.egg-info/SOURCES.txt'
+[2.213s] running build
+[2.213s] running build_py
+[2.214s] creating /home/robocon/NPIC01/build/silo_tracking/build
+[2.214s] creating /home/robocon/NPIC01/build/silo_tracking/build/lib
+[2.214s] creating /home/robocon/NPIC01/build/silo_tracking/build/lib/silo_tracking
+[2.214s] copying silo_tracking/__init__.py -> /home/robocon/NPIC01/build/silo_tracking/build/lib/silo_tracking
+[2.214s] running install
+[2.215s] running install_lib
+[2.217s] creating /home/robocon/NPIC01/install/silo_tracking/lib/python3.8/site-packages/silo_tracking
+[2.217s] copying /home/robocon/NPIC01/build/silo_tracking/build/lib/silo_tracking/__init__.py -> /home/robocon/NPIC01/install/silo_tracking/lib/python3.8/site-packages/silo_tracking
+[2.218s] byte-compiling /home/robocon/NPIC01/install/silo_tracking/lib/python3.8/site-packages/silo_tracking/__init__.py to __init__.cpython-38.pyc
+[2.219s] running install_data
+[2.220s] creating /home/robocon/NPIC01/install/silo_tracking/share/ament_index
+[2.220s] creating /home/robocon/NPIC01/install/silo_tracking/share/ament_index/resource_index
+[2.220s] creating /home/robocon/NPIC01/install/silo_tracking/share/ament_index/resource_index/packages
+[2.220s] copying resource/silo_tracking -> /home/robocon/NPIC01/install/silo_tracking/share/ament_index/resource_index/packages
+[2.220s] copying package.xml -> /home/robocon/NPIC01/install/silo_tracking/share/silo_tracking
+[2.221s] running install_egg_info
+[2.223s] Copying ../build/silo_tracking/silo_tracking.egg-info to /home/robocon/NPIC01/install/silo_tracking/lib/python3.8/site-packages/silo_tracking-0.0.0-py3.8.egg-info
+[2.224s] running install_scripts
+[2.251s] writing list of installed files to '/home/robocon/NPIC01/build/silo_tracking/install.log'
+[2.299s] Invoked command in '/home/robocon/NPIC01/silo_tracking' returned '0': PYTHONPATH=/home/robocon/NPIC01/build/silo_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robocon/NPIC01/install/silo_tracking/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/silo_tracking build --build-base /home/robocon/NPIC01/build/silo_tracking/build install --record /home/robocon/NPIC01/build/silo_tracking/install.log --install-scripts $base/lib/silo_tracking --single-version-externally-managed install_data

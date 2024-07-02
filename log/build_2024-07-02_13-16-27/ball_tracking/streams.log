@@ -1,0 +1,16 @@
+[1.818s] Invoking command in '/home/robocon/NPIC01/build/ball_tracking': PYTHONPATH=/home/robocon/NPIC01/build/ball_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robocon/NPIC01/install/ball_tracking/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robocon/NPIC01/build/ball_tracking/build --no-deps symlink_data
+[2.181s] running develop
+[2.392s] running egg_info
+[2.392s] writing ball_tracking.egg-info/PKG-INFO
+[2.393s] writing dependency_links to ball_tracking.egg-info/dependency_links.txt
+[2.393s] writing entry points to ball_tracking.egg-info/entry_points.txt
+[2.393s] writing requirements to ball_tracking.egg-info/requires.txt
+[2.393s] writing top-level names to ball_tracking.egg-info/top_level.txt
+[2.437s] reading manifest file 'ball_tracking.egg-info/SOURCES.txt'
+[2.438s] writing manifest file 'ball_tracking.egg-info/SOURCES.txt'
+[2.488s] running build_ext
+[2.488s] Creating /home/robocon/NPIC01/install/ball_tracking/lib/python3.8/site-packages/ball-tracking.egg-link (link to .)
+[2.490s] 
+[2.490s] Installed /home/robocon/NPIC01/build/ball_tracking
+[2.490s] running symlink_data
+[2.592s] Invoked command in '/home/robocon/NPIC01/build/ball_tracking' returned '0': PYTHONPATH=/home/robocon/NPIC01/build/ball_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robocon/NPIC01/install/ball_tracking/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robocon/NPIC01/build/ball_tracking/build --no-deps symlink_data

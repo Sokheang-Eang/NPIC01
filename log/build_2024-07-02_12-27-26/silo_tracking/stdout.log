@@ -1,0 +1,31 @@
+running egg_info
+creating ../build/silo_tracking/silo_tracking.egg-info
+writing ../build/silo_tracking/silo_tracking.egg-info/PKG-INFO
+writing dependency_links to ../build/silo_tracking/silo_tracking.egg-info/dependency_links.txt
+writing entry points to ../build/silo_tracking/silo_tracking.egg-info/entry_points.txt
+writing requirements to ../build/silo_tracking/silo_tracking.egg-info/requires.txt
+writing top-level names to ../build/silo_tracking/silo_tracking.egg-info/top_level.txt
+writing manifest file '../build/silo_tracking/silo_tracking.egg-info/SOURCES.txt'
+reading manifest file '../build/silo_tracking/silo_tracking.egg-info/SOURCES.txt'
+writing manifest file '../build/silo_tracking/silo_tracking.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robocon/NPIC01/build/silo_tracking/build
+creating /home/robocon/NPIC01/build/silo_tracking/build/lib
+creating /home/robocon/NPIC01/build/silo_tracking/build/lib/silo_tracking
+copying silo_tracking/__init__.py -> /home/robocon/NPIC01/build/silo_tracking/build/lib/silo_tracking
+running install
+running install_lib
+creating /home/robocon/NPIC01/install/silo_tracking/lib/python3.8/site-packages/silo_tracking
+copying /home/robocon/NPIC01/build/silo_tracking/build/lib/silo_tracking/__init__.py -> /home/robocon/NPIC01/install/silo_tracking/lib/python3.8/site-packages/silo_tracking
+byte-compiling /home/robocon/NPIC01/install/silo_tracking/lib/python3.8/site-packages/silo_tracking/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/robocon/NPIC01/install/silo_tracking/share/ament_index
+creating /home/robocon/NPIC01/install/silo_tracking/share/ament_index/resource_index
+creating /home/robocon/NPIC01/install/silo_tracking/share/ament_index/resource_index/packages
+copying resource/silo_tracking -> /home/robocon/NPIC01/install/silo_tracking/share/ament_index/resource_index/packages
+copying package.xml -> /home/robocon/NPIC01/install/silo_tracking/share/silo_tracking
+running install_egg_info
+Copying ../build/silo_tracking/silo_tracking.egg-info to /home/robocon/NPIC01/install/silo_tracking/lib/python3.8/site-packages/silo_tracking-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/robocon/NPIC01/build/silo_tracking/install.log'

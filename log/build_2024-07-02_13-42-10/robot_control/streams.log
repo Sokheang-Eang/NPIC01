@@ -1,0 +1,17 @@
+[1.655s] Invoking command in '/home/robocon/NPIC01/build/robot_control': PYTHONPATH=/home/robocon/NPIC01/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robocon/NPIC01/install/robot_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robocon/NPIC01/build/robot_control/build --no-deps symlink_data
+[1.998s] running develop
+[2.205s] running egg_info
+[2.206s] writing robot_control.egg-info/PKG-INFO
+[2.206s] writing dependency_links to robot_control.egg-info/dependency_links.txt
+[2.206s] writing entry points to robot_control.egg-info/entry_points.txt
+[2.207s] writing requirements to robot_control.egg-info/requires.txt
+[2.207s] writing top-level names to robot_control.egg-info/top_level.txt
+[2.248s] reading manifest file 'robot_control.egg-info/SOURCES.txt'
+[2.249s] writing manifest file 'robot_control.egg-info/SOURCES.txt'
+[2.297s] running build_ext
+[2.297s] Creating /home/robocon/NPIC01/install/robot_control/lib/python3.8/site-packages/robot-control.egg-link (link to .)
+[2.298s] Installing robot script to /home/robocon/NPIC01/install/robot_control/lib/robot_control
+[2.299s] 
+[2.299s] Installed /home/robocon/NPIC01/build/robot_control
+[2.299s] running symlink_data
+[2.378s] Invoked command in '/home/robocon/NPIC01/build/robot_control' returned '0': PYTHONPATH=/home/robocon/NPIC01/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robocon/NPIC01/install/robot_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robocon/NPIC01/build/robot_control/build --no-deps symlink_data

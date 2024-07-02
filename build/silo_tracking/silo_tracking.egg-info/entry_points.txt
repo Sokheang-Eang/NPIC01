@@ -1,0 +1,4 @@
+[console_scripts]
+silo_blue = silo_tracking.silo_blue:main
+silo_red = silo_tracking.silo_red:main
+

@@ -1,0 +1,31 @@
+running egg_info
+creating ../build/robot_control/robot_control.egg-info
+writing ../build/robot_control/robot_control.egg-info/PKG-INFO
+writing dependency_links to ../build/robot_control/robot_control.egg-info/dependency_links.txt
+writing entry points to ../build/robot_control/robot_control.egg-info/entry_points.txt
+writing requirements to ../build/robot_control/robot_control.egg-info/requires.txt
+writing top-level names to ../build/robot_control/robot_control.egg-info/top_level.txt
+writing manifest file '../build/robot_control/robot_control.egg-info/SOURCES.txt'
+reading manifest file '../build/robot_control/robot_control.egg-info/SOURCES.txt'
+writing manifest file '../build/robot_control/robot_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robocon/NPIC01/build/robot_control/build
+creating /home/robocon/NPIC01/build/robot_control/build/lib
+creating /home/robocon/NPIC01/build/robot_control/build/lib/robot_control
+copying robot_control/__init__.py -> /home/robocon/NPIC01/build/robot_control/build/lib/robot_control
+running install
+running install_lib
+creating /home/robocon/NPIC01/install/robot_control/lib/python3.8/site-packages/robot_control
+copying /home/robocon/NPIC01/build/robot_control/build/lib/robot_control/__init__.py -> /home/robocon/NPIC01/install/robot_control/lib/python3.8/site-packages/robot_control
+byte-compiling /home/robocon/NPIC01/install/robot_control/lib/python3.8/site-packages/robot_control/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/robocon/NPIC01/install/robot_control/share/ament_index
+creating /home/robocon/NPIC01/install/robot_control/share/ament_index/resource_index
+creating /home/robocon/NPIC01/install/robot_control/share/ament_index/resource_index/packages
+copying resource/robot_control -> /home/robocon/NPIC01/install/robot_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/robocon/NPIC01/install/robot_control/share/robot_control
+running install_egg_info
+Copying ../build/robot_control/robot_control.egg-info to /home/robocon/NPIC01/install/robot_control/lib/python3.8/site-packages/robot_control-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/robocon/NPIC01/build/robot_control/install.log'

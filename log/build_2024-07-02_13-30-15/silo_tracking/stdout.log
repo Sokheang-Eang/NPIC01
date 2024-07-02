@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing silo_tracking.egg-info/PKG-INFO
+writing dependency_links to silo_tracking.egg-info/dependency_links.txt
+writing entry points to silo_tracking.egg-info/entry_points.txt
+writing requirements to silo_tracking.egg-info/requires.txt
+writing top-level names to silo_tracking.egg-info/top_level.txt
+reading manifest file 'silo_tracking.egg-info/SOURCES.txt'
+writing manifest file 'silo_tracking.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robocon/NPIC01/install/silo_tracking/lib/python3.8/site-packages/silo-tracking.egg-link (link to .)
+Installing silo_blue script to /home/robocon/NPIC01/install/silo_tracking/lib/silo_tracking
+Installing silo_red script to /home/robocon/NPIC01/install/silo_tracking/lib/silo_tracking
+
+Installed /home/robocon/NPIC01/build/silo_tracking
+running symlink_data

@@ -1,0 +1,19 @@
+[1.891s] Invoking command in '/home/robocon/NPIC01/build/robot_control': PYTHONPATH=/home/robocon/NPIC01/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robocon/NPIC01/install/robot_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robocon/NPIC01/build/robot_control/build --no-deps symlink_data --force
+[2.275s] running develop
+[2.496s] running egg_info
+[2.496s] writing robot_control.egg-info/PKG-INFO
+[2.496s] writing dependency_links to robot_control.egg-info/dependency_links.txt
+[2.497s] writing entry points to robot_control.egg-info/entry_points.txt
+[2.497s] writing requirements to robot_control.egg-info/requires.txt
+[2.497s] writing top-level names to robot_control.egg-info/top_level.txt
+[2.544s] reading manifest file 'robot_control.egg-info/SOURCES.txt'
+[2.545s] writing manifest file 'robot_control.egg-info/SOURCES.txt'
+[2.599s] running build_ext
+[2.599s] Creating /home/robocon/NPIC01/install/robot_control/lib/python3.8/site-packages/site.py
+[2.603s] Creating /home/robocon/NPIC01/install/robot_control/lib/python3.8/site-packages/robot-control.egg-link (link to .)
+[2.604s] 
+[2.604s] Installed /home/robocon/NPIC01/build/robot_control
+[2.605s] running symlink_data
+[2.605s] symbolically linking /home/robocon/NPIC01/build/robot_control/resource/robot_control -> /home/robocon/NPIC01/install/robot_control/share/ament_index/resource_index/packages
+[2.605s] symbolically linking /home/robocon/NPIC01/build/robot_control/package.xml -> /home/robocon/NPIC01/install/robot_control/share/robot_control
+[2.714s] Invoked command in '/home/robocon/NPIC01/build/robot_control' returned '0': PYTHONPATH=/home/robocon/NPIC01/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robocon/NPIC01/install/robot_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robocon/NPIC01/build/robot_control/build --no-deps symlink_data --force

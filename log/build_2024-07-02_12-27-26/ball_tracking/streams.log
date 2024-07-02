@@ -1,0 +1,33 @@
+[1.848s] Invoking command in '/home/robocon/NPIC01/ball_tracking': PYTHONPATH=/home/robocon/NPIC01/build/ball_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robocon/NPIC01/install/ball_tracking/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ball_tracking build --build-base /home/robocon/NPIC01/build/ball_tracking/build install --record /home/robocon/NPIC01/build/ball_tracking/install.log --install-scripts $base/lib/ball_tracking --single-version-externally-managed install_data
+[2.188s] running egg_info
+[2.189s] creating ../build/ball_tracking/ball_tracking.egg-info
+[2.189s] writing ../build/ball_tracking/ball_tracking.egg-info/PKG-INFO
+[2.189s] writing dependency_links to ../build/ball_tracking/ball_tracking.egg-info/dependency_links.txt
+[2.190s] writing entry points to ../build/ball_tracking/ball_tracking.egg-info/entry_points.txt
+[2.190s] writing requirements to ../build/ball_tracking/ball_tracking.egg-info/requires.txt
+[2.190s] writing top-level names to ../build/ball_tracking/ball_tracking.egg-info/top_level.txt
+[2.193s] writing manifest file '../build/ball_tracking/ball_tracking.egg-info/SOURCES.txt'
+[2.238s] reading manifest file '../build/ball_tracking/ball_tracking.egg-info/SOURCES.txt'
+[2.239s] writing manifest file '../build/ball_tracking/ball_tracking.egg-info/SOURCES.txt'
+[2.239s] running build
+[2.239s] running build_py
+[2.239s] creating /home/robocon/NPIC01/build/ball_tracking/build
+[2.240s] creating /home/robocon/NPIC01/build/ball_tracking/build/lib
+[2.240s] creating /home/robocon/NPIC01/build/ball_tracking/build/lib/ball_tracking
+[2.240s] copying ball_tracking/__init__.py -> /home/robocon/NPIC01/build/ball_tracking/build/lib/ball_tracking
+[2.240s] running install
+[2.240s] running install_lib
+[2.242s] creating /home/robocon/NPIC01/install/ball_tracking/lib/python3.8/site-packages/ball_tracking
+[2.242s] copying /home/robocon/NPIC01/build/ball_tracking/build/lib/ball_tracking/__init__.py -> /home/robocon/NPIC01/install/ball_tracking/lib/python3.8/site-packages/ball_tracking
+[2.243s] byte-compiling /home/robocon/NPIC01/install/ball_tracking/lib/python3.8/site-packages/ball_tracking/__init__.py to __init__.cpython-38.pyc
+[2.245s] running install_data
+[2.245s] creating /home/robocon/NPIC01/install/ball_tracking/share/ament_index
+[2.245s] creating /home/robocon/NPIC01/install/ball_tracking/share/ament_index/resource_index
+[2.245s] creating /home/robocon/NPIC01/install/ball_tracking/share/ament_index/resource_index/packages
+[2.246s] copying resource/ball_tracking -> /home/robocon/NPIC01/install/ball_tracking/share/ament_index/resource_index/packages
+[2.246s] copying package.xml -> /home/robocon/NPIC01/install/ball_tracking/share/ball_tracking
+[2.246s] running install_egg_info
+[2.248s] Copying ../build/ball_tracking/ball_tracking.egg-info to /home/robocon/NPIC01/install/ball_tracking/lib/python3.8/site-packages/ball_tracking-0.0.0-py3.8.egg-info
+[2.250s] running install_scripts
+[2.277s] writing list of installed files to '/home/robocon/NPIC01/build/ball_tracking/install.log'
+[2.350s] Invoked command in '/home/robocon/NPIC01/ball_tracking' returned '0': PYTHONPATH=/home/robocon/NPIC01/build/ball_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robocon/NPIC01/install/ball_tracking/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ball_tracking build --build-base /home/robocon/NPIC01/build/ball_tracking/build install --record /home/robocon/NPIC01/build/ball_tracking/install.log --install-scripts $base/lib/ball_tracking --single-version-externally-managed install_data

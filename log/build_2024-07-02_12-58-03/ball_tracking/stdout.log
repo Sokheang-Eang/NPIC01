@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing ball_tracking.egg-info/PKG-INFO
+writing dependency_links to ball_tracking.egg-info/dependency_links.txt
+writing entry points to ball_tracking.egg-info/entry_points.txt
+writing requirements to ball_tracking.egg-info/requires.txt
+writing top-level names to ball_tracking.egg-info/top_level.txt
+reading manifest file 'ball_tracking.egg-info/SOURCES.txt'
+writing manifest file 'ball_tracking.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robocon/NPIC01/install/ball_tracking/lib/python3.8/site-packages/site.py
+Creating /home/robocon/NPIC01/install/ball_tracking/lib/python3.8/site-packages/ball-tracking.egg-link (link to .)
+
+Installed /home/robocon/NPIC01/build/ball_tracking
+running symlink_data
+symbolically linking /home/robocon/NPIC01/build/ball_tracking/resource/ball_tracking -> /home/robocon/NPIC01/install/ball_tracking/share/ament_index/resource_index/packages
+symbolically linking /home/robocon/NPIC01/build/ball_tracking/package.xml -> /home/robocon/NPIC01/install/ball_tracking/share/ball_tracking

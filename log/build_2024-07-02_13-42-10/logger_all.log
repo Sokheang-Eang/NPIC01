@@ -1,0 +1,239 @@
+[0.312s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--symlink-install'][0m
+[0.313s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9950aa00>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9950aa00>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff99498c10>)[0m
+[0.527s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.527s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.527s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.527s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.527s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.527s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.527s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/robocon/NPIC01'
+[0.527s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.544s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.544s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.544s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.544s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.544s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.544s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.544s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.544s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ball_tracking) by extensions ['ignore', 'ignore_ament_install']
+[0.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ball_tracking) by extension 'ignore'
+[0.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ball_tracking) by extension 'ignore_ament_install'
+[0.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ball_tracking) by extensions ['colcon_pkg']
+[0.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ball_tracking) by extension 'colcon_pkg'
+[0.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ball_tracking) by extensions ['colcon_meta']
+[0.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ball_tracking) by extension 'colcon_meta'
+[0.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ball_tracking) by extensions ['ros']
+[0.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ball_tracking) by extension 'ros'
+[0.551s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ball_tracking' with type 'ros.ament_python' and name 'ball_tracking'[0m
+[0.552s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_control) by extension 'ignore'
+[0.552s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_control) by extension 'ignore_ament_install'
+[0.552s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_control) by extensions ['colcon_pkg']
+[0.552s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_control) by extension 'colcon_pkg'
+[0.552s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_control) by extensions ['colcon_meta']
+[0.552s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_control) by extension 'colcon_meta'
+[0.552s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_control) by extensions ['ros']
+[0.552s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_control) by extension 'ros'
+[0.553s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/robot_control' with type 'ros.ament_python' and name 'robot_control'[0m
+[0.553s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/silo_tracking) by extensions ['ignore', 'ignore_ament_install']
+[0.553s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/silo_tracking) by extension 'ignore'
+[0.553s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/silo_tracking) by extension 'ignore_ament_install'
+[0.554s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/silo_tracking) by extensions ['colcon_pkg']
+[0.554s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/silo_tracking) by extension 'colcon_pkg'
+[0.554s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/silo_tracking) by extensions ['colcon_meta']
+[0.554s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/silo_tracking) by extension 'colcon_meta'
+[0.554s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/silo_tracking) by extensions ['ros']
+[0.554s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/silo_tracking) by extension 'ros'
+[0.555s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/silo_tracking' with type 'ros.ament_python' and name 'silo_tracking'[0m
+[0.555s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.555s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.555s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.555s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.555s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.576s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.576s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.579s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 7 installed packages in /home/robocon/robocon/install[0m
+[0.580s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 256 installed packages in /opt/ros/foxy[0m
+[0.582s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.683s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ball_tracking' build argument 'cmake_args' from command line to 'None'
+[0.683s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ball_tracking' build argument 'cmake_target' from command line to 'None'
+[0.684s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ball_tracking' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.684s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ball_tracking' build argument 'cmake_clean_cache' from command line to 'False'
+[0.684s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ball_tracking' build argument 'cmake_clean_first' from command line to 'False'
+[0.684s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ball_tracking' build argument 'cmake_force_configure' from command line to 'False'
+[0.684s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ball_tracking' build argument 'ament_cmake_args' from command line to 'None'
+[0.684s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ball_tracking' build argument 'catkin_cmake_args' from command line to 'None'
+[0.684s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ball_tracking' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.684s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ball_tracking' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robocon/NPIC01/build/ball_tracking', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robocon/NPIC01/install/ball_tracking', 'merge_install': False, 'path': '/home/robocon/NPIC01/src/ball_tracking', 'symlink_install': True, 'test_result_base': None}[0m
+[0.684s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_control' build argument 'cmake_args' from command line to 'None'
+[0.684s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_control' build argument 'cmake_target' from command line to 'None'
+[0.684s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.685s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.685s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.685s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.685s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.685s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.685s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.685s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'robot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robocon/NPIC01/build/robot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robocon/NPIC01/install/robot_control', 'merge_install': False, 'path': '/home/robocon/NPIC01/src/robot_control', 'symlink_install': True, 'test_result_base': None}[0m
+[0.685s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'silo_tracking' build argument 'cmake_args' from command line to 'None'
+[0.685s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'silo_tracking' build argument 'cmake_target' from command line to 'None'
+[0.685s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'silo_tracking' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.685s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'silo_tracking' build argument 'cmake_clean_cache' from command line to 'False'
+[0.685s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'silo_tracking' build argument 'cmake_clean_first' from command line to 'False'
+[0.685s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'silo_tracking' build argument 'cmake_force_configure' from command line to 'False'
+[0.686s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'silo_tracking' build argument 'ament_cmake_args' from command line to 'None'
+[0.686s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'silo_tracking' build argument 'catkin_cmake_args' from command line to 'None'
+[0.686s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'silo_tracking' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.686s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'silo_tracking' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robocon/NPIC01/build/silo_tracking', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robocon/NPIC01/install/silo_tracking', 'merge_install': False, 'path': '/home/robocon/NPIC01/src/silo_tracking', 'symlink_install': True, 'test_result_base': None}[0m
+[0.686s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.688s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.689s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/robocon/NPIC01/src/ball_tracking' with build type 'ament_python'
+[0.689s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ball_tracking', 'ament_prefix_path')
+[0.692s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.692s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/robocon/NPIC01/install/ball_tracking/share/ball_tracking/hook/ament_prefix_path.ps1'
+[0.693s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/robocon/NPIC01/install/ball_tracking/share/ball_tracking/hook/ament_prefix_path.dsv'
+[0.694s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/robocon/NPIC01/install/ball_tracking/share/ball_tracking/hook/ament_prefix_path.sh'
+[0.695s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.695s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.703s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/robocon/NPIC01/src/robot_control' with build type 'ament_python'
+[0.704s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robot_control', 'ament_prefix_path')
+[0.705s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/robocon/NPIC01/install/robot_control/share/robot_control/hook/ament_prefix_path.ps1'
+[0.706s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/robocon/NPIC01/install/robot_control/share/robot_control/hook/ament_prefix_path.dsv'
+[0.706s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/robocon/NPIC01/install/robot_control/share/robot_control/hook/ament_prefix_path.sh'
+[0.707s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.707s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.715s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/robocon/NPIC01/src/silo_tracking' with build type 'ament_python'
+[0.716s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('silo_tracking', 'ament_prefix_path')
+[0.716s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/robocon/NPIC01/install/silo_tracking/share/silo_tracking/hook/ament_prefix_path.ps1'
+[0.717s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/robocon/NPIC01/install/silo_tracking/share/silo_tracking/hook/ament_prefix_path.dsv'
+[0.718s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/robocon/NPIC01/install/silo_tracking/share/silo_tracking/hook/ament_prefix_path.sh'
+[0.719s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.719s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.069s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/robocon/NPIC01/src/ball_tracking'
+[1.070s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.070s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.410s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/robocon/NPIC01/src/robot_control'
+[1.411s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.411s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.754s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/robocon/NPIC01/src/silo_tracking'
+[1.755s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.755s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[2.345s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/robocon/NPIC01/build/ball_tracking': PYTHONPATH=/home/robocon/NPIC01/build/ball_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robocon/NPIC01/install/ball_tracking/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robocon/NPIC01/build/ball_tracking/build --no-deps symlink_data[0m
+[2.359s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/robocon/NPIC01/build/robot_control': PYTHONPATH=/home/robocon/NPIC01/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robocon/NPIC01/install/robot_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robocon/NPIC01/build/robot_control/build --no-deps symlink_data[0m
+[2.364s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/robocon/NPIC01/build/silo_tracking': PYTHONPATH=/home/robocon/NPIC01/build/silo_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robocon/NPIC01/install/silo_tracking/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robocon/NPIC01/build/silo_tracking/build --no-deps symlink_data[0m
+[3.061s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ball_tracking', 'pythonpath_develop')
+[3.061s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/robocon/NPIC01/build/ball_tracking/share/ball_tracking/hook/pythonpath_develop.ps1'
+[3.062s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/robocon/NPIC01/build/ball_tracking' returned '0': PYTHONPATH=/home/robocon/NPIC01/build/ball_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robocon/NPIC01/install/ball_tracking/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robocon/NPIC01/build/ball_tracking/build --no-deps symlink_data[0m
+[3.063s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/robocon/NPIC01/build/ball_tracking/share/ball_tracking/hook/pythonpath_develop.dsv'
+[3.064s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/robocon/NPIC01/build/ball_tracking/share/ball_tracking/hook/pythonpath_develop.sh'
+[3.068s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robocon/NPIC01/install/ball_tracking' for CMake module files
+[3.069s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robocon/NPIC01/install/ball_tracking' for CMake config files
+[3.070s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robocon/NPIC01/install/ball_tracking/lib'
+[3.070s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robocon/NPIC01/install/ball_tracking/bin'
+[3.070s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robocon/NPIC01/install/ball_tracking/lib/pkgconfig/ball_tracking.pc'
+[3.071s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robocon/NPIC01/install/ball_tracking/lib/python3.8/site-packages'
+[3.071s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ball_tracking', 'pythonpath')
+[3.071s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/robocon/NPIC01/install/ball_tracking/share/ball_tracking/hook/pythonpath.ps1'
+[3.072s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/robocon/NPIC01/install/ball_tracking/share/ball_tracking/hook/pythonpath.dsv'
+[3.072s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/robocon/NPIC01/install/ball_tracking/share/ball_tracking/hook/pythonpath.sh'
+[3.073s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robocon/NPIC01/install/ball_tracking/bin'
+[3.073s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ball_tracking)
+[3.074s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/robocon/NPIC01/install/ball_tracking/share/ball_tracking/package.ps1'
+[3.075s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/robocon/NPIC01/install/ball_tracking/share/ball_tracking/package.dsv'
+[3.076s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/robocon/NPIC01/install/ball_tracking/share/ball_tracking/package.sh'
+[3.077s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/robocon/NPIC01/install/ball_tracking/share/ball_tracking/package.bash'
+[3.078s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/robocon/NPIC01/install/ball_tracking/share/ball_tracking/package.zsh'
+[3.079s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/robocon/NPIC01/install/ball_tracking/share/colcon-core/packages/ball_tracking)
+[3.081s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robot_control', 'pythonpath_develop')
+[3.081s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/robocon/NPIC01/build/robot_control/share/robot_control/hook/pythonpath_develop.ps1'
+[3.082s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/robocon/NPIC01/build/robot_control' returned '0': PYTHONPATH=/home/robocon/NPIC01/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robocon/NPIC01/install/robot_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robocon/NPIC01/build/robot_control/build --no-deps symlink_data[0m
+[3.083s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/robocon/NPIC01/build/robot_control/share/robot_control/hook/pythonpath_develop.dsv'
+[3.083s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/robocon/NPIC01/build/robot_control/share/robot_control/hook/pythonpath_develop.sh'
+[3.084s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robocon/NPIC01/install/robot_control' for CMake module files
+[3.084s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robocon/NPIC01/install/robot_control' for CMake config files
+[3.085s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robocon/NPIC01/install/robot_control/lib'
+[3.085s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robocon/NPIC01/install/robot_control/bin'
+[3.085s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robocon/NPIC01/install/robot_control/lib/pkgconfig/robot_control.pc'
+[3.086s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robocon/NPIC01/install/robot_control/lib/python3.8/site-packages'
+[3.086s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robot_control', 'pythonpath')
+[3.086s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/robocon/NPIC01/install/robot_control/share/robot_control/hook/pythonpath.ps1'
+[3.086s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/robocon/NPIC01/install/robot_control/share/robot_control/hook/pythonpath.dsv'
+[3.087s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/robocon/NPIC01/install/robot_control/share/robot_control/hook/pythonpath.sh'
+[3.087s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robocon/NPIC01/install/robot_control/bin'
+[3.088s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(robot_control)
+[3.088s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/robocon/NPIC01/install/robot_control/share/robot_control/package.ps1'
+[3.089s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/robocon/NPIC01/install/robot_control/share/robot_control/package.dsv'
+[3.089s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/robocon/NPIC01/install/robot_control/share/robot_control/package.sh'
+[3.090s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/robocon/NPIC01/install/robot_control/share/robot_control/package.bash'
+[3.090s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/robocon/NPIC01/install/robot_control/share/robot_control/package.zsh'
+[3.091s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/robocon/NPIC01/install/robot_control/share/colcon-core/packages/robot_control)
+[3.092s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('silo_tracking', 'pythonpath_develop')
+[3.092s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/robocon/NPIC01/build/silo_tracking/share/silo_tracking/hook/pythonpath_develop.ps1'
+[3.093s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/robocon/NPIC01/build/silo_tracking' returned '0': PYTHONPATH=/home/robocon/NPIC01/build/silo_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robocon/NPIC01/install/silo_tracking/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robocon/NPIC01/build/silo_tracking/build --no-deps symlink_data[0m
+[3.093s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/robocon/NPIC01/build/silo_tracking/share/silo_tracking/hook/pythonpath_develop.dsv'
+[3.094s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/robocon/NPIC01/build/silo_tracking/share/silo_tracking/hook/pythonpath_develop.sh'
+[3.094s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robocon/NPIC01/install/silo_tracking' for CMake module files
+[3.095s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robocon/NPIC01/install/silo_tracking' for CMake config files
+[3.095s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robocon/NPIC01/install/silo_tracking/lib'
+[3.096s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robocon/NPIC01/install/silo_tracking/bin'
+[3.096s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robocon/NPIC01/install/silo_tracking/lib/pkgconfig/silo_tracking.pc'
+[3.096s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robocon/NPIC01/install/silo_tracking/lib/python3.8/site-packages'
+[3.096s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('silo_tracking', 'pythonpath')
+[3.096s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/robocon/NPIC01/install/silo_tracking/share/silo_tracking/hook/pythonpath.ps1'
+[3.097s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/robocon/NPIC01/install/silo_tracking/share/silo_tracking/hook/pythonpath.dsv'
+[3.097s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/robocon/NPIC01/install/silo_tracking/share/silo_tracking/hook/pythonpath.sh'
+[3.098s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robocon/NPIC01/install/silo_tracking/bin'
+[3.098s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(silo_tracking)
+[3.099s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/robocon/NPIC01/install/silo_tracking/share/silo_tracking/package.ps1'
+[3.099s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/robocon/NPIC01/install/silo_tracking/share/silo_tracking/package.dsv'
+[3.100s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/robocon/NPIC01/install/silo_tracking/share/silo_tracking/package.sh'
+[3.100s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/robocon/NPIC01/install/silo_tracking/share/silo_tracking/package.bash'
+[3.101s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/robocon/NPIC01/install/silo_tracking/share/silo_tracking/package.zsh'
+[3.101s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/robocon/NPIC01/install/silo_tracking/share/colcon-core/packages/silo_tracking)
+[3.102s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[3.102s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[3.102s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[3.102s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[3.110s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.110s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.110s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[3.133s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[3.133s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/robocon/NPIC01/install/local_setup.ps1'
+[3.135s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/robocon/NPIC01/install/_local_setup_util_ps1.py'
+[3.137s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/robocon/NPIC01/install/setup.ps1'
+[3.138s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/robocon/NPIC01/install/local_setup.sh'
+[3.139s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/robocon/NPIC01/install/_local_setup_util_sh.py'
+[3.139s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/robocon/NPIC01/install/setup.sh'
+[3.141s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/robocon/NPIC01/install/local_setup.bash'
+[3.142s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/robocon/NPIC01/install/setup.bash'
+[3.143s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/robocon/NPIC01/install/local_setup.zsh'
+[3.144s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/robocon/NPIC01/install/setup.zsh'

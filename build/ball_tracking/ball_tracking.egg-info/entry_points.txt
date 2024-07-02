@@ -1,0 +1,4 @@
+[console_scripts]
+ball_blue = ball_tracking.ball_blue:main
+ball_red = ball_tracking.ball_red:main
+
